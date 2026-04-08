@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 
-        run: echo" this is testing"
+        run:
+          pwd
+          ls
