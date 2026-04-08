@@ -4,4 +4,5 @@ jobs:
   testing-wf-commands:
     runs-on: ubuntu-latest
     steps:
-      - name: echo" this is testing"
+      - name: 
+        run: echo" this is testing"
