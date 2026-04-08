@@ -1,0 +1,7 @@
+name: workflow commands
+on: [push, pull_request]
+jobs: 
+  testing-wf-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo" this is testing"
